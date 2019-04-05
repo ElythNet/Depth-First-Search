@@ -21,32 +21,3 @@ $ pytest .
 
 Exemples :
 
-# = noir
-o = blanc
-. = vide
-
-
-.#.
-#o#    <= o est prise parce qu'elle n'a pas de liberté, elle n'a aucun espace vide adjacent
-.#.
-
-
-...
-#o#    <= o n'est pas prise parce qu'elle a une liberté au dessus
-.#.
-
-
-o#    <= o est prise parce qu'elle n'a pas de liberté (le haut et la gauche sont hors du goban donc ce ne sont pas des libertés)
-#.
-
-
-oo.
-##o    <= la forme # est prise parce qu'elle n'a pas de liberté
-o#o
-.o.
-
-
-oo.
-##.   <= la forme # n'est pas prise parce qu'elle a une liberté en x=2, y=1 (0, 0 en haut à gauche)
-o#o
-.o.
