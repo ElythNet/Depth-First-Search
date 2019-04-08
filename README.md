@@ -8,7 +8,6 @@ Status.BLACK : quand la pierre à la position x, y est noire
 Status.WHITE : quand la pierre à la position x, y est blanche
 Status.EMPTY : quand il n'y a pas de pierre à la position x, y
 Status.OUT : quand la position x, y est hors du goban
-Complétez la méthode Goban.is_taken avec votre solution (vous pouvez ajouter des paramètres à la méthode si besoin). Celle-ci doit respecter les bonnes pratiques du Python. Vous pouvez tester votre solution à tout moment avec py.test (les tests sont dans le fichier test_goban.py).
 
 
 Pour commencer et lancer les tests :
